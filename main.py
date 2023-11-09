@@ -35,7 +35,7 @@ class Admin(Foydalanuvchi):
         self.parol = parol
         self.key = key
 
-    def ban_user(self, ):
+    def ban_user(self):
         return f"User {foydalanuvchi.name} - is blocked"
 
     def admin_info(self):
